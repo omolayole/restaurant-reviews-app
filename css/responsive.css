@@ -22,5 +22,8 @@
  * styles for large device
  */
  @media screen and (min-width: 1024px) {
-     
+    #restaurants-list {
+        width: 1024px;
+        margin: 0 auto;
+    } 
 }

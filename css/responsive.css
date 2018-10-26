@@ -27,3 +27,38 @@
         margin: 0 auto;
     } 
 }
+
+/*
+ * restaurant details styles for mobile device
+ */
+@media screen and (max-width: 767px) {
+    .inside #maincontent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inside #map-container {
+        position: relative;
+        height: 300px;
+        width: 100%;
+    }
+
+    #breadcrumb {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #restaurant-container, #reviews-container {
+        width: 100%;
+    }
+
+    .leaflet-control-zoom.leaflet-bar.leaflet-control {
+        margin-top: 4rem;
+    }
+
+    .inside #footer {
+        width: 100%;
+    }
+}

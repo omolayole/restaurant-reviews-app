@@ -16,6 +16,14 @@
     #restaurants-list li {
         width: 35%;  
     } 
+
+    #restaurant-container, #reviews-container {
+        width: calc(50% - 80px);
+    }
+
+    .inside #footer {
+        width: calc(50% - 50px);
+    }
 }
 
 /*
@@ -60,5 +68,6 @@
 
     .inside #footer {
         width: 100%;
+        padding: 20px 0;
     }
 }
